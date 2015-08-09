@@ -8,7 +8,6 @@ error_log
 .htaccess.sample
 .htaccess
 .modgit/
-.modman/
 app/code/community/Phoenix/
 app/code/community/Cm/
 app/code/core/
