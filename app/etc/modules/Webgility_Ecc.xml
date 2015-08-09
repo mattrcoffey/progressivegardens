@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgility_Ecc>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Webgility_Ecc>
+    </modules>
+</config>

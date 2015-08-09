@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Progressive_Gridimages>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Progressive_Gridimages>
+    </modules>
+</config>
