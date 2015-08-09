@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+    <config>
+        <menu>
+            <ecc module="ecc">
+                <title>Webgility</title>
+                <sort_order>72</sort_order>               
+                <children>
+                    <items module="ecc">
+                        <title>Manage Items ecc</title>
+                        <sort_order>0</sort_order>
+                        <action>ecc/adminhtml_ecc</action>
+                    </items>
+                </children>
+				
+            </ecc>
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <ecc>
+                            <title>Ecc Module</title>
+                            <sort_order>200</sort_order>
+                        </ecc>
+                    </children>
+                </admin>
+            </resources>   
+        </acl>
+        <layout>
+            <updates>
+                <ecc>
+                   <file>ecc.xml</file> 
+                </ecc>
+            </updates>
+        </layout>
+    </config>
